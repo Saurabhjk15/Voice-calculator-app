@@ -65,7 +65,8 @@ Voice Command	Result
 - "Six times six mod three"  	0.0
 
 🗂 Project Structure
-
+bash
+Copy code
 Voice-Controlled-Calculator/
 ├── app/
 │   ├── src/
@@ -80,6 +81,7 @@ Voice-Controlled-Calculator/
 │   │   │   └── AndroidManifest.xml            # Permissions and configuration
 │   └── build.gradle                           # Project dependencies
 ├── README.md                                  # Project documentation
+└── LICENSE                                    # License (if applicable)
 
 🧰 Technologies Used
 - Language: Java
