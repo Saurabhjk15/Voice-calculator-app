@@ -64,24 +64,9 @@ Voice Command	Result
 - "Four square root"	 2.0
 - "Six times six mod three"  	0.0
 
-🗂 Project Structure
-bash
-Copy code
-Voice-Controlled-Calculator/
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/example/voicecalculator/
-│   │   │   │   └── MainActivity.java          # Main application logic
-│   │   │   ├── res/
-│   │   │   │   ├── layout/
-│   │   │   │   │   └── activity_main.xml      # UI layout
-│   │   │   │   └── values/
-│   │   │   │       └── strings.xml            # Strings and resources
-│   │   │   └── AndroidManifest.xml            # Permissions and configuration
-│   └── build.gradle                           # Project dependencies
-├── README.md                                  # Project documentation
-└── LICENSE                                    # License (if applicable)
+## 🗂 Project Structure
+
+Voice-Controlled-Calculator/ ├── app/ │ ├── src/ │ │ ├── main/ │ │ │ ├── java/com/example/voicecalculator/ │ │ │ │ └── MainActivity.java # Main application logic │ │ │ ├── res/ │ │ │ │ ├── layout/ │ │ │ │ │ └── activity_main.xml # UI layout │ │ │ │ └── values/ │ │ │ │ └── strings.xml # Strings and resources │ │ │ └── AndroidManifest.xml # Permissions and configuration │ └── build.gradle # Project dependencies ├── README.md # Project documentation └── LICENSE # License (if applicable)
 
 🧰 Technologies Used
 - Language: Java
