@@ -97,7 +97,8 @@ Voice-Controlled-Calculator/
 - Version Control: Git
 
 🤝 Contributing
-We welcome contributions to enhance this project!
+
+- We welcome contributions to enhance this project!
 
 - Fork the repository
 
