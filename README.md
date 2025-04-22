@@ -6,7 +6,7 @@ A sleek and innovative Android application that lets you perform calculations us
 
 ## 📱 Overview
 
-The **Voice-Controlled Calculator** is an Android mobile application developed using **Android Studio (Java)**. It allows users to perform mathematical operations using voice commands like “five plus three” or via traditional button input. It includes a 10-second timeout for voice input, advanced math functions, and a clean interface that works well on devices like the Realme Narzo 10.
+The **Voice-Controlled Calculator** is an Android mobile application developed using **Android Studio (Java)**. It allows users to perform mathematical operations using voice commands like “five plus three” or via traditional button input. It includes a 10-second timeout for voice input, advanced math functions, and a clean interface that works well on devices.
 
 ---
 
@@ -65,8 +65,25 @@ Voice Command	Result
 - "Six times six mod three"  	0.0
 
 ## 🗂 Project Structure
+```
 
-Voice-Controlled-Calculator/ ├── app/ │ ├── src/ │ │ ├── main/ │ │ │ ├── java/com/example/voicecalculator/ │ │ │ │ └── MainActivity.java # Main application logic │ │ │ ├── res/ │ │ │ │ ├── layout/ │ │ │ │ │ └── activity_main.xml # UI layout │ │ │ │ └── values/ │ │ │ │ └── strings.xml # Strings and resources │ │ │ └── AndroidManifest.xml # Permissions and configuration │ └── build.gradle # Project dependencies ├── README.md # Project documentation └── LICENSE # License (if applicable)
+Voice-Controlled-Calculator/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/voicecalculator/
+│   │   │   │   └── MainActivity.java          # Main application logic
+│   │   │   ├── res/
+│   │   │   │   ├── layout/
+│   │   │   │   │   └── activity_main.xml      # UI layout
+│   │   │   │   └── values/
+│   │   │   │       └── strings.xml            # Strings and resources
+│   │   │   └── AndroidManifest.xml            # Permissions and configuration
+│   └── build.gradle                           # Project dependencies
+├── README.md                                  # Project documentation
+└── LICENSE                                    # License (if applicable)
+
+
 
 🧰 Technologies Used
 - Language: Java
